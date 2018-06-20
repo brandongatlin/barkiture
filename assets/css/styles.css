@@ -1,0 +1,112 @@
+html{
+    margin-top:0;
+    padding-top:0;
+}
+body{
+    margin-top:0;
+    padding-top:0;
+}
+
+header {
+  align-items: center;
+  background-color: white;
+  border: .1em solid black;
+  height: 7em;
+  position: fixed;
+  transition: height .2s;
+}
+
+.header-big {
+  height: 7em;
+}
+
+.header-small {
+  height: 4em;
+}
+
+.nav div{
+  color: #b2b2b2;
+  text-align: center;
+}
+
+.logo {
+  margin-left: 2em;
+  width: 50%;
+}
+
+#index-title {
+  background-image: url('../images/home-gallery/3.png');
+  background-size: cover;
+  height: 35em;
+}
+
+#home-gallery {
+  background-color: white;
+  height: 2000px;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.gallery-item {
+  width: 100%;
+}
+
+#home-gallery-1 {
+  /* border: 1px solid red; */
+  padding: 3em;
+}
+
+#home-gallery-1 div {
+  /* border: 1px solid blue; */
+}
+
+#hg-text-1 {
+  padding: 5em;
+}
+
+/* .hr {
+  border-top: .1em;
+  height: .1em;
+  position: relative;
+  text-align: center;
+	top: -5px;
+
+}
+
+.hr:before {
+  content: '\002665';
+
+} */
+
+#hg-img-1 {
+  background-image: url('../images/home-gallery/2.png');
+  background-size: cover;
+}
+
+#hg-img-2 {
+  background-image: url('../images/home-gallery/6.png');
+  background-size: cover;
+}
+
+.text-title {
+  border-bottom: .1em solid #b2b2b2;
+  color: #b2b2b2;
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+.text-title:before {
+  content: '🐾';
+  font-size: 1.5em;
+  left: 4em;
+  position: relative;
+  top: 2em;
+  
+}
+
+.text-text {
+  color: #b2b2b2;
+  text-align: center;
+
+
+}
