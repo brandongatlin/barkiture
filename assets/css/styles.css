@@ -72,9 +72,14 @@ header {
   width: 1px;
 }
 
+#search-input:focus {
+  border-bottom: .3em solid gold;
+  width: 200px;
+}
+
 #search-input:hover {
-  border-bottom: .1em solid gold;
-  transition: 2s;
+  /* border-bottom: .5em solid gold; */
+  transition: .5s;
   transition-timing-function: ease-in-out;
   width: 200px;
 }
@@ -85,8 +90,8 @@ header {
 }
 
 #search-btn:hover + #search-input {
-  border-bottom: .1em solid gold;
-  transition: 2s;
+  border-bottom: .3em solid gold;
+  transition: 1s;
   transition-timing-function: ease-in-out;
   width: 200px;
 }
