@@ -3,7 +3,8 @@
   grid-template-areas:
   /* "header" */
   "title"
-  "home-gallery";
+  "home-gallery"
+  "about";
   grid-template-columns: 1fr;
   grid-template-rows: minmax(5em, auto);
 }
@@ -35,7 +36,7 @@ header {
   grid-area: hg1;
   grid-gap: 2em;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 375px 375px;
+  grid-template-rows: 425px 425px;
 }
 
 #hg-text-1 {
@@ -79,4 +80,24 @@ header {
   display: grid;
   grid-area: nav;
   grid-template-columns: repeat(8, 1fr);
+}
+
+#about {
+  display: grid;
+  grid-area: about;
+  grid-template-areas:
+  "about-text"
+  "team";
+  grid-template-columns: 1fr;
+  grid-template-rows: 400px 275px;
+}
+
+#about-text {
+  grid-area: about-text;
+}
+
+#team {
+  display: grid;
+  grid-area: team;
+  grid-template-columns: repeat(4, 1fr);
 }

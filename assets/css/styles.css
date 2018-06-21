@@ -10,7 +10,7 @@ body{
 header {
   align-items: center;
   background-color: white;
-  border: .1em solid black;
+  border-bottom: .1em solid #b2b2b2;
   height: 7em;
   position: fixed;
   transition: height .2s;
@@ -43,7 +43,7 @@ header {
 
 #home-gallery {
   background-color: white;
-  height: 2000px;
+  height: 1000px;
   padding-left: 1em;
   padding-right: 1em;
 }
@@ -82,7 +82,7 @@ header {
   color: white;
   padding: 2em;
   text-align: center;
-  visibility: hidden;  
+  visibility: hidden;
 }
 
 #hg-img-2:hover div {
@@ -97,7 +97,7 @@ header {
   color: white;
   padding: 2em;
   text-align: center;
-  visibility: hidden;  
+  visibility: hidden;
 }
 
 #hg-img-1:hover div {
@@ -116,7 +116,7 @@ header {
 }
 
 .hr7:before {
-  border-color: grey;
+  border-color: #b2b2b2;
   border-style: solid;
   border-width: 0 0 1px 0;
   content: "";
@@ -134,4 +134,43 @@ header {
   position: relative;
   right: 4em;
   top: 2em;
+}
+
+#about {
+  /* padding: 2em; */
+  text-align: center;
+}
+
+#about-text {
+  color: #b2b2b2;
+
+}
+
+#team img{
+  filter: opacity(.5);
+  height: 100%;
+  transform: scale(.8);
+  transition: .5s;
+  width: 100%;
+
+}
+
+#team-1:hover {
+  filter: opacity(1);
+  transform: scale(1.1);
+}
+
+#team-2:hover {
+  filter: opacity(1);
+  transform: scale(1.1);
+}
+
+#team-3:hover {
+  filter: opacity(1);
+  transform: scale(1.1);
+}
+
+#team-4:hover {
+  filter: opacity(1);
+  transform: scale(1.1);
 }
