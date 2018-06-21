@@ -17,8 +17,8 @@ header {
   display: grid;
   grid-area: header;
   grid-template-areas:
-  "logo nav nav";
-  grid-template-columns: repeat(3, 1fr);
+  "logo nav nav nav nav";
+  grid-template-columns: repeat(5, 1fr);
 }
 
 #home-gallery {
@@ -54,7 +54,7 @@ header {
   grid-row: 2/3;
 }
 
-#home-gallery-2 {
+/* #home-gallery-2 {
   display: grid;
   grid-area: hg2;
   grid-template-areas:
@@ -70,7 +70,7 @@ header {
   ;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-}
+} */
 
 .logo {
   grid-area: logo;

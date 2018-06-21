@@ -15,6 +15,7 @@ header {
   height: 7em;
   position: fixed;
   transition: height .2s;
+  width: 100%;
   z-index: 5;
 }
 
@@ -32,12 +33,66 @@ header {
 }
 
 .logo {
-  margin-left: 2em;
-  width: 50%;
+  height: 3em;
+  margin-left: 3em;
+  width: 3em;
+}
+
+#home-btn:hover {
+  color: gold;
+}
+
+#about-btn:hover {
+  color: gold;
+}
+
+#gallery-btn:hover {
+  color: gold;
+}
+
+#stores-btn:hover {
+  color: gold;
+}
+
+#contact-btn:hover {
+  color: gold;
+}
+
+#checkout-btn:hover {
+  color: gold;
+}
+
+#search-btn:hover {
+  color: gold;
+}
+
+#search-input {
+  border: 0;
+  display: inline;
+  width: 1px;
+}
+
+#search-input:hover {
+  border-bottom: .1em solid gold;
+  transition: 2s;
+  transition-timing-function: ease-in-out;
+  width: 200px;
+}
+
+#search-btn {
+  color: #b2b2b2;
+  display: inline;
+}
+
+#search-btn:hover + #search-input {
+  border-bottom: .1em solid gold;
+  transition: 2s;
+  transition-timing-function: ease-in-out;
+  width: 200px;
 }
 
 #index-title {
-  background-image: url('../images/home-gallery/3.png');
+  background-image: url('../images/vegan-grocery.jpg');
   background-size: cover;
   height: 35em;
 }
@@ -59,7 +114,7 @@ header {
 }
 
 #hg-img-1 {
-  background-image: url('../images/home-gallery/2.png');
+  background-image: url('../images/fruit2.jpg');
   background-size: cover;
   /* transition: .5s; */
 }
@@ -68,7 +123,7 @@ header {
 }
 
 #hg-img-2 {
-  background-image: url('../images/home-gallery/6.png');
+  background-image: url('../images/fruit1.jpg');
   background-size: cover;
   /* transition: .5s; */
 }
@@ -107,7 +162,7 @@ header {
 }
 
 .text-title {
-  color: #b2b2b2;
+  color: gold;
   padding-bottom: 2em;
   text-align: center;
 }
@@ -131,11 +186,12 @@ header {
 .hr7:after {
   background: white;
   color: red;
-  content: "\002665";
+  content: "🍉";
   display: inline-block;
   font-size: 1.7em;
+  
   position: relative;
-  right: 3.5em;
+  right: 3.2em;
   top: 1.7em;
 }
 
