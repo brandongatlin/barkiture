@@ -89,7 +89,7 @@ header {
   "about-text"
   "team";
   grid-template-columns: 1fr;
-  grid-template-rows: 400px 275px;
+  grid-template-rows: 300px 275px;
 }
 
 #about-text {
