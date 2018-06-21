@@ -194,7 +194,7 @@ header {
   content: "🍉";
   display: inline-block;
   font-size: 1.7em;
-  
+
   position: relative;
   right: 3.2em;
   top: 1.7em;
@@ -212,10 +212,10 @@ header {
 
 #team img{
   filter: opacity(.5);
-  height: 100%;
-  transform: scale(.8);
+  /* height: 100%; */
+  max-width: 100%;
+  /* transform: scale(.8); */
   transition: .5s;
-  width: 100%;
 
 }
 
